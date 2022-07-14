@@ -1,65 +1,59 @@
 body{
+    display: flex;
     background-color: black;
     color: aliceblue;
     justify-content: center;
+    align-items: center;
+    align-content: center;
 }
 
 #content{
     display: flex;
+    align-items: center;
+    align-content: center;
+    flex-flow: row nowrap;
     height: 95vh;
     width: 95vw;
     justify-content: center;
     border: 1px lightcoral;
     margin-right: 0px;
-    margin-left: 20px;
+    margin-left: 0px;
 }
 
 #picture{
     border: 1px lightblue;
     display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    align-content: center;
     background-image: url(background.jpg);
     background-position: center;
     width: 39vw;
     height: 94vh;
     justify-content: center;
-    margin-top: 2.5px;
-    margin-right: 2.5px;
-    margin-left: 2px;
 }
 
 #logobar{
-    display: flex;
+    display:flex;
+    align-items:center;
+    align-content:center;
+    justify-content:center;
+    flex-flow:column nowrap;
+    position: top;
     background-color: black;
     opacity:0.8;
-    border: 0px solid black;
     width: 40vw;
     height: 60px;
-    margin-top: 150px;
-}
-
-#logo{
-    display: flex;
-    height: 10vh;
-    width: 10vw;
-    opacity: 1;
-    margin-left: 20px;
-}
-
-#smart{
-    display: flex;
-    align-items: center;
-    margin-left: 15px;
-    height: 10vh;
-    width: 10vw;
-    font-size: 40px;
-    font-weight: bolder;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    opacity: 1;
+    font-weight: bolder;
+    font-size: 40px;
+    margin-bottom: 60%;
 }
+
 
 #right{
     display: flex;
-    flex-flow: column wrap;
+    flex-flow: column nowrap;
     background-color: #581845;
     justify-content: center;
     align-items: center;
@@ -72,7 +66,7 @@ body{
 
 #top{
     display: flex;
-    flex-flow: column wrap;
+    flex-flow: column nowrap;
     justify-content: center;
     align-items: center;
     align-content: center;
@@ -84,7 +78,7 @@ body{
 
 #forminput{
     display: flex;
-    flex-flow: column wrap;
+    flex-flow: column nowrap;
     justify-content: center;
     align-items: center;
     align-content: center;
@@ -92,7 +86,7 @@ body{
 
 #title, #para, .input, .sbtn, .haveacc{
     display: flex;
-    flex-flow: column wrap;
+    flex-flow: column nowrap;
     justify-content: center;
     align-items: center;
     align-content: center;
